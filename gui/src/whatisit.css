@@ -1,0 +1,64 @@
+.wisit{
+    display: flex;
+}
+.header_logo_name{ 
+    margin-top: 10px;
+    margin-left: -4px;
+    font-weight: bold;
+    font-family: 'Courier';
+    font-size: 33px;
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+    color: rgb(50, 205, 50)
+}
+
+.frame_content{
+    border: 2px solid rgb(50, 205, 50);
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height: 380px;
+    overflow: auto;
+    font-family: monospace;
+}
+.Heading{
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(50, 205, 50);
+    font-size: x-large;
+}
+
+.text_about{
+    color: rgb(50, 205, 50);
+    margin: 10px;
+    text-align: left;
+    font-size: medium;
+}
+.heading_about{
+    text-align: left;
+    color: rgb(50, 205, 50);
+    font-size: larger;
+}
+
+.back{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(50, 205, 50);
+    color: transparent;
+}
+
+.back:hover{
+    color: black;
+    -webkit-text-stroke-color: black;
+}

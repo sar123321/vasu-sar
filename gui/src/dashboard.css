@@ -1,0 +1,83 @@
+.dashboard{
+  display: flex;
+}
+
+.dashboard div{
+  flex: 1;
+}
+.dashboard_sider{
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 200px;
+  background-color:rgb(211,211,211);
+  margin: 10px;
+  height: 550px;
+  border:solid 3px rgb(78, 77, 77);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+.sidenav span {
+  padding: 8px 8px 8px 39px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 18px;
+  color: #545353;
+  display: block;
+  transition: 0.3s;
+  width: 100px;
+}
+
+.sidenav span:hover {
+  color: rgb(75, 70, 70);
+}
+
+.dashboard_content{
+  margin: 10px;
+  background-color: rgb(211,211,211);
+  font-family: 'Courier New', Courier, monospace;
+  width: 750px;
+  height: 225px;
+  position: absolute;
+  border:solid 3px rgb(78, 77, 77);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  left: 250px;
+}
+
+.right_content{
+  position: absolute;
+  right: 0;
+  border:solid 3px rgb(78, 77, 77);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(211,211,211);
+
+}
+
+.Content{
+  color: #545353;
+  margin: 10px;
+  margin-top: 30px;
+  text-align: left;
+  position: relative;
+  left: 30px;
+
+}
+
+.Activity{
+  color: #545353;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  left: 30px;
+}
